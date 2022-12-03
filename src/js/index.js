@@ -10,7 +10,7 @@ let lightbox;
 const refs = {
     form: document.querySelector('#search-form'),
     gallery: document.querySelector('.gallery'),
-    loadMoreBtn: document / querySelector('.js-load-more'),
+    loadMoreBtn: document.querySelector('.js-load-more'),
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
